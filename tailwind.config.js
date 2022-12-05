@@ -6,7 +6,7 @@ module.exports = {
       sm: '480px',
       md: '768px',
       lg: '1020px',
-      xl: '1440px'
+      xl: '1440px',
     },
     extend: {
       colors: {
@@ -16,8 +16,11 @@ module.exports = {
         veryDarkBlue: 'hsl(229, 31%, 21%)',
       },
       fontFamily: {
-        sans: ['Rubik', 'sans-serif']
-      }
+        sans: ['Rubik', 'sans-serif'],
+      },
+      backgroundImage: () => ({
+        dots: "url('../images/bg-dots.svg')",
+      }),
     },
   },
   plugins: [],
